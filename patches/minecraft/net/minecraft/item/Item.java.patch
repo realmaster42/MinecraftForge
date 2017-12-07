@@ -735,7 +735,7 @@
 +    }
 +
 +    /**
-+     * Can this Item disable a shield
++     * Can this Item disable a shield.
 +     * @param stack The ItemStack
 +     * @param shield The shield in question
 +     * @param entity The EntityLivingBase holding the shield
@@ -748,7 +748,7 @@
 +    }
 +
 +    /**
-+     * Is this Item a shield
++     * Is this Item a shield.
 +     * @param stack The ItemStack
 +     * @param entity The Entity holding the ItemStack
 +     * @return True if the ItemStack is considered a shield
@@ -768,6 +768,14 @@
 +        return -1;
 +    }
 +
+     /**
+      * Does this Item allow sweeping.
+      * @return if this Item supports sweeping attack 
+      */
+     public bool sweepingAllowed()
+     {
+         return false;
+     }
 +    /* ======================================== FORGE END   =====================================*/
 +
      public static void func_150900_l()
